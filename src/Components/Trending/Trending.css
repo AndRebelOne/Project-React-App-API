@@ -1,0 +1,39 @@
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-card {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.card {
+    margin: 20px;
+    background-color: #e1dad2 !important;
+}
+
+.card:hover {
+    opacity: .8;
+}
+
+.overview {
+    word-break: break-all;
+    text-align: justify;
+}
+
+.date {
+    margin-right: 190px;
+}
+
+.btn {
+    margin-left: 7px;
+}

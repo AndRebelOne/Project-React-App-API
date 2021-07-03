@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #0c2431 ;
+}
+
+.btn-nav {
+    margin-left: 20px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-self: center;
+    margin-right: 50px;
+    margin-left: auto;
+    font-size: 50px;
+    color: #e1dad2;
+    cursor: pointer;
+}
+
+.active {
+    background-color: chocolate;
+}
+
+.title {
+    color:   #e1dad2;
+    font-family: 'Kanit', 'open-sans';
+    font-size: 30px;
+    padding: 10px;
+}
